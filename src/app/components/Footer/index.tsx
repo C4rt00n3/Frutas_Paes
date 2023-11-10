@@ -48,7 +48,6 @@ const Footer = () => {
           </p>
         </div>
       </div>
-
       <Image src={noCopy} alt="All Copyrights reserved" />
     </footer>
   );
