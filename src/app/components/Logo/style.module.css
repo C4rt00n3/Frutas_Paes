@@ -1,0 +1,15 @@
+.content {
+  display: flex;
+  align-items: center;
+
+  margin-top: 5rem;
+
+  max-width: 280px;
+  width: 25%;
+
+  gap: 1rem;
+}
+
+.img {
+  width: 100%;
+}

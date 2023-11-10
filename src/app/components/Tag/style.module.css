@@ -1,0 +1,17 @@
+.Link {
+  text-decoration: none;
+
+  text-align: center;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+  color: var(--color-withe);
+
+  padding-inline: 10px;
+}
+
+.Link:hover {
+  border-bottom: 2px solid var(--color-orange);
+}
