@@ -8,6 +8,10 @@
   width: 25%;
 
   gap: 1rem;
+
+  @media (min-width: 848px) {
+    margin-top: 5rem;
+  }
 }
 
 .boxContent {
