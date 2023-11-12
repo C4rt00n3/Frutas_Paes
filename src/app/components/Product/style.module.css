@@ -67,6 +67,8 @@
   font-weight: 700;
   line-height: normal;
 
+  margin-block: 2rem;
+
   @media (min-width: 848px) {
     display: none;
   }

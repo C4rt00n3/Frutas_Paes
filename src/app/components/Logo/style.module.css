@@ -2,12 +2,16 @@
   display: flex;
   align-items: center;
 
-  margin-top: 5rem;
+  margin-top: 1rem;
 
   max-width: 280px;
   width: 25%;
 
   gap: 1rem;
+}
+
+.boxContent {
+  width: 100%;
 }
 
 .img {
