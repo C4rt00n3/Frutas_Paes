@@ -97,3 +97,7 @@ body {
   color: rgb(var(--foreground-rgb));
   background-color: var(--color-withe2);
 }
+
+a {
+  font-family: "Josefin Slab", serif;
+}
