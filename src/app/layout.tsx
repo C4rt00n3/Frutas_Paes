@@ -19,7 +19,12 @@ export const metadata: Metadata = {
   authors: [{ name: "Frutas Paes", url: "www.frutaspaes.com.br" }],
   description:
     "Frutas Paes - Venda online de manga e maracujá. Localizado em Livramento de Nossa Senhora, oferecemos produtos de alta qualidade e atendimento excepcional. Entregamos para todo o Brasil. Descubra o sabor fresco e a praticidade de comprar frutas conosco.",
-  icons: [{ rel: "icon", url: "./public/assets/favicon.ico" }],
+  icons: [
+    {
+      rel: "icon",
+      url: "https://drive.google.com/file/d/13PGGzQcsBAnshgR5paNHOgN9qL9ISpzZ/view?usp=sharingo",
+    },
+  ],
 };
 
 export default function RootLayout({
