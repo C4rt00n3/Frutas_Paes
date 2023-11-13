@@ -59,8 +59,12 @@
 
   text-decoration: none;
   padding: 0.8rem 1.5rem 0.8rem 1.5rem;
+  transform: 200ms linear;
 }
 
+.talk:hover {
+  background: var(--color-orange2);
+}
 .contentBox {
   width: 100%;
   display: flex;
@@ -97,10 +101,11 @@
 }
 
 .list {
-  width: 100%;
+  width: 80%;
   display: flex;
   justify-content: space-between;
   padding-top: 3rem;
+  margin-left: 10%;
 
   padding-inline: 10%;
 

@@ -10,8 +10,30 @@
   color: var(--color-withe);
 
   padding-inline: 10px;
-}
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
+  position: relative;
+}
+.line {
+  position: absolute;
+  padding-inline: 10px;
+
+  height: 2px;
+  width: 100%;
+
+  opacity: 0.25;
+  bottom: 0;
+
+  transition: 200ms linear;
+
+  transform: rotateY(90deg);
+  background-color: var(--color-orange);
+}
 .Link:hover {
-  border-bottom: 2px solid var(--color-orange);
+  .line {
+    opacity: 1;
+    transform: rotateY(0deg);
+  }
 }
