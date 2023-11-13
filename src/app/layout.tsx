@@ -21,6 +21,10 @@ export const metadata: Metadata = {
     "Frutas Paes - Venda online de manga e maracujá. Localizado em Livramento de Nossa Senhora, oferecemos produtos de alta qualidade e atendimento excepcional. Entregamos para todo o Brasil. Descubra o sabor fresco e a praticidade de comprar frutas conosco.",
   icons: [
     {
+      rel: "ico",
+      url: "../../public/assets/favicon.ico",
+    },
+    {
       rel: "icon",
       url: "https://drive.google.com/file/d/13PGGzQcsBAnshgR5paNHOgN9qL9ISpzZ/view?usp=sharingo",
     },
