@@ -167,6 +167,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
+
+  font-family: "Josefin Slab", serif;
 }
 .void {
   width: 100vw;
