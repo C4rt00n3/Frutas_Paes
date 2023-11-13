@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Frutas Paes",
   description:
-    "rutas Paes - Venda online de manga e maracujá. Localizado em Livramento de Nossa Senhora, oferecemos produtos de alta qualidade e atendimento excepcional. Entregamos para todo o Brasil. Descubra o sabor fresco e a praticidade de comprar frutas conosco.",
+    "Frutas Paes - Venda online de manga e maracujá. Localizado em Livramento de Nossa Senhora, oferecemos produtos de alta qualidade e atendimento excepcional. Entregamos para todo o Brasil. Descubra o sabor fresco e a praticidade de comprar frutas conosco.",
 };
 
 export default function RootLayout({
