@@ -6,7 +6,7 @@ import whatsapp from "../../../../public/assets/whatsapp.svg";
 import facebook from "../../../../public/assets/circum_facebook.svg";
 import instagram from "../../../../public/assets/bxl_instagram.svg";
 import Link from "next/link";
-import noCopy from "../../../../public/assets/no coppy.svg";
+import noCopy from "../../../../public/assets/noCopy.svg";
 
 const Footer = () => {
   const link =
@@ -20,14 +20,37 @@ const Footer = () => {
         <div className={style.follow}>
           <h3>Follow us</h3>
           <div className={style.boxIcons}>
-            <Link target="blank" href={link}>
-              <Image src={whatsapp} alt="Ir para o nosso whatsapp" />
+            <Link className={style.linkIcon} target="blank" href={link}>
+              <Image
+                width={30}
+                height={30}
+                src={whatsapp}
+                alt="Ir para o nosso whatsapp"
+              />
             </Link>
-            <Link target="blank" href={"https://www.facebook.com/zete.paes"}>
-              <Image src={facebook} alt="Ir para o nosso facebook" />
+            <Link
+              className={style.linkIcon}
+              target="blank"
+              href={"https://www.facebook.com/zete.paes"}
+            >
+              <Image
+                width={30}
+                height={30}
+                src={facebook}
+                alt="Ir para o nosso facebook"
+              />
             </Link>
-            <Link href={"https://www.instagram.com/zetepaes7/"} target="blank">
-              <Image src={instagram} alt="Ir para o nosso instagram" />
+            <Link
+              className={style.linkIcon}
+              href={"https://www.instagram.com/zetepaes7/"}
+              target="blank"
+            >
+              <Image
+                width={30}
+                height={30}
+                src={instagram}
+                alt="Ir para o nosso instagram"
+              />
             </Link>
           </div>
         </div>

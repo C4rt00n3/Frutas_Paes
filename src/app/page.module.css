@@ -102,16 +102,20 @@
 
 .list {
   width: 80%;
+  height: fit-content;
   display: flex;
   justify-content: space-between;
   padding-top: 3rem;
   margin-left: 10%;
 
+  padding-bottom: 5px;
   padding-inline: 10%;
 
   list-style: none;
 
   font-family: "Josefin Slab", serif;
+
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
 }
 
 .products {

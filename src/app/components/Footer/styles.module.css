@@ -52,3 +52,17 @@
   color: var(--color-withe);
   opacity: 70%;
 }
+
+.linkIcon {
+  width: 25px;
+  height: 25px;
+
+  position: relative;
+  border-radius: 50%;
+
+  background-color: var(--color-withe);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
